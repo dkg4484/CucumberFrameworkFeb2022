@@ -11,14 +11,11 @@ public class Calculator {
 
 	@Given("As a customer we have the analog calculator")
 	public void as_a_customer_we_have_the_analog_calculator() {
-
 		System.out.println("====This is my Analog calculator=======");
-
 	}
 
 	@When("As a customer we sends two number {int} and {int}")
 	public void as_a_customer_we_sends_two_number_and(int num1, int num2) {
-
 		System.out.println("======Addition of given numbers============");
 
 		actualValue = num1 + num2;

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.925">
+<testcase classname="Testing Amazon features" name="Test SignIn Scenario" time="16.488">
+<system-out><![CDATA[Given the user passes the url "https://www.amazon.in".......................passed
+When the user clicks the signIn button......................................passed
+Then the user should see the signIn page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
