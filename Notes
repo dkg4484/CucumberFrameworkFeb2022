@@ -85,6 +85,70 @@ Scenarios (3 amigos) -->Execute --> Fail --> Code --> Exe --> Fail --> Refactor
 --> Execute --> Pass --> Cycles goes on
 
 
+1. TDD vs BDD
+
+2. Cucumber Initial Setup --> Maven --> Pom.xml
+
+	> Feature File
+	> Step defintion
+
+3. Runner Class --> Junit (features, glue, dryRun, plugin, monochrome, tags) 
+
+--------------------------------------
+
+Data driven testing in Cucumber:-
+-------------------------------
+
+Data Driven Testing:-
+------------------
+
+Testing:- 
+
+Scenarios --> Dev
+
+	 --> Scenario's(Expected value) vs Product (Actual value)
+	--> Bug --> Quality
+
+An application(Eg Amazon login) is driven by external resources such as XML, Json, Excel or DB.
+
+A framework which supports to acheive the data driven testing is called as 
+Data driven framework:
+
+Eg: Cucumber, TestNG
+
+How to acheive data driven framework through Cucumber?
+---------------------------------------------------
+
+1. Simple Data driven (Using Cucumber expression or Reqular Exp)
+2. DataTable Class
+3. Scenario Outline with Examples
+
+-------------------
+
+***** DataTable Class
+
+asList() --> Single Column with Multiple Rows --> List<String>
+values() --> Single Row with Multiple Columns/Single Column with Multiple Rows --> List<String>
+asMap() --> Headers with Single set of data --> Map<String, String>
+asLists() --> Multiple Set of data without header --> List<List<String>>
+cells() --> Multiple Set of data without header --> List<List<String>>
+asMaps() --> Multiple set of data with header --> List<Map<K,V>
+entries() --> Multiple set of data with header --> List<Map<K,V>
+
+> Datatable is a class used to acheive the data driven testing in Cucumber
+> Datatable is used to convert the data from table to List or Map.
+> Different inbuilded methods --> asList, asLists, asMap, asMaps
+
+
+
+
+
+
+
+
+
+
+
 
 
 
